@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		8F69E9D82386F6B000DA56C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69E9D72386F6B000DA56C1 /* AppDelegate.swift */; };
 		8F69E9DA2386F6B000DA56C1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69E9D92386F6B000DA56C1 /* SceneDelegate.swift */; };
-		8F69E9DC2386F6B000DA56C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69E9DB2386F6B000DA56C1 /* ViewController.swift */; };
+		8F69E9DC2386F6B000DA56C1 /* FaceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69E9DB2386F6B000DA56C1 /* FaceViewController.swift */; };
 		8F69E9DF2386F6B000DA56C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F69E9DD2386F6B000DA56C1 /* Main.storyboard */; };
 		8F69E9E12386F6B500DA56C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F69E9E02386F6B500DA56C1 /* Assets.xcassets */; };
 		8F69E9E42386F6B500DA56C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F69E9E22386F6B500DA56C1 /* LaunchScreen.storyboard */; };
@@ -21,7 +21,7 @@
 		8F69E9D42386F6B000DA56C1 /* Stanford10FaceIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Stanford10FaceIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F69E9D72386F6B000DA56C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F69E9D92386F6B000DA56C1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F69E9DB2386F6B000DA56C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8F69E9DB2386F6B000DA56C1 /* FaceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceViewController.swift; sourceTree = "<group>"; };
 		8F69E9DE2386F6B000DA56C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F69E9E02386F6B500DA56C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F69E9E32386F6B500DA56C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -60,7 +60,7 @@
 		8F69E9D62386F6B000DA56C1 /* Stanford10FaceIt */ = {
 			isa = PBXGroup;
 			children = (
-				8F69E9DB2386F6B000DA56C1 /* ViewController.swift */,
+				8F69E9DB2386F6B000DA56C1 /* FaceViewController.swift */,
 				8F69E9EC2386F72900DA56C1 /* FaceView.swift */,
 				8FA5C8E12387B68300AF6C01 /* FacialExpression.swift */,
 				8F69E9DD2386F6B000DA56C1 /* Main.storyboard */,
@@ -152,7 +152,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F69E9DC2386F6B000DA56C1 /* ViewController.swift in Sources */,
+				8F69E9DC2386F6B000DA56C1 /* FaceViewController.swift in Sources */,
 				8F69E9D82386F6B000DA56C1 /* AppDelegate.swift in Sources */,
 				8FA5C8E22387B68300AF6C01 /* FacialExpression.swift in Sources */,
 				8F69E9DA2386F6B000DA56C1 /* SceneDelegate.swift in Sources */,
