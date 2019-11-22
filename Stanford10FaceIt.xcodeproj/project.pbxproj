@@ -14,6 +14,7 @@
 		8F69E9E12386F6B500DA56C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F69E9E02386F6B500DA56C1 /* Assets.xcassets */; };
 		8F69E9E42386F6B500DA56C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F69E9E22386F6B500DA56C1 /* LaunchScreen.storyboard */; };
 		8F69E9ED2386F72900DA56C1 /* FaceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F69E9EC2386F72900DA56C1 /* FaceView.swift */; };
+		8FA5C8E22387B68300AF6C01 /* FacialExpression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA5C8E12387B68300AF6C01 /* FacialExpression.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		8F69E9E32386F6B500DA56C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8F69E9E52386F6B500DA56C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8F69E9EC2386F72900DA56C1 /* FaceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceView.swift; sourceTree = "<group>"; };
+		8FA5C8E12387B68300AF6C01 /* FacialExpression.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacialExpression.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			children = (
 				8F69E9DB2386F6B000DA56C1 /* ViewController.swift */,
 				8F69E9EC2386F72900DA56C1 /* FaceView.swift */,
+				8FA5C8E12387B68300AF6C01 /* FacialExpression.swift */,
 				8F69E9DD2386F6B000DA56C1 /* Main.storyboard */,
 				8F69E9E52386F6B500DA56C1 /* Info.plist */,
 				8F69E9EB2386F6D200DA56C1 /* Supporting Files */,
@@ -151,6 +154,7 @@
 			files = (
 				8F69E9DC2386F6B000DA56C1 /* ViewController.swift in Sources */,
 				8F69E9D82386F6B000DA56C1 /* AppDelegate.swift in Sources */,
+				8FA5C8E22387B68300AF6C01 /* FacialExpression.swift in Sources */,
 				8F69E9DA2386F6B000DA56C1 /* SceneDelegate.swift in Sources */,
 				8F69E9ED2386F72900DA56C1 /* FaceView.swift in Sources */,
 			);

@@ -15,6 +15,8 @@ import UIKit
 @IBDesignable
 class FaceView: UIView {
     
+    // Public API
+    
     @IBInspectable
     var scale: CGFloat = 0.9
     
@@ -30,6 +32,8 @@ class FaceView: UIView {
     @IBInspectable
     var color: UIColor = UIColor.blue
     
+    
+    // Private Implementaion
     
     private var skullRadius: CGFloat {
         return min(bounds.size.width, bounds.size.height) / 2 * scale
