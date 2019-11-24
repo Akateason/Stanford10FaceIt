@@ -49,12 +49,13 @@ class FaceViewController: UIViewController {
         }
     }
     
-    
-    var expression = FacialExpression(eyes: .closed, mouth: .frown) {
+    // 初始化 expression
+    var expression = FacialExpression(eyes: .open, mouth: .neutral) {
         didSet {
             updateUI()
         }
     }
+    
     
     private func updateUI() {
         switch expression.eyes {

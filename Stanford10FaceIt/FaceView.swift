@@ -28,7 +28,7 @@ class FaceView: UIView {
     
     // 1.0 is full smile and -1.0 is full frown
     @IBInspectable
-    var mouthCurvature: Double = -0.5 { didSet { setNeedsDisplay() } }
+    var mouthCurvature: Double = 0.0 { didSet { setNeedsDisplay() } }
     
     @IBInspectable
     var color: UIColor = UIColor.blue { didSet { setNeedsDisplay() } }
